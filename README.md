@@ -3,9 +3,6 @@
 <img src="images/ub.png" alt="gray.jpg" width="100" height="100"> <br>
   <b> CSE-573: Computer Vision & Image Processing </b>
 </p>
----
-
-
 ### [Edge Detection](Project_01/Edge_Detection) :
 <img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
 
@@ -95,7 +92,7 @@ Output image: <br>
 
 Input image: <br>
 
-<img src="Project_02/data/nevada/nevada3.jpg" alt="nevada3.jpg" width="250" height="250"><img src="Project_02/data/nevada/nevada4.jpg" alt="nevada4.jpg" width="250" height="250"><img src="Project_02/data/nevada/nevada5.jpg" alt="nevada5.jpg" width="250" height="250">
+<img src="Project_02/data/nevada/nevada3.jpg" alt="nevada3.jpg" width="300" height="250"><img src="Project_02/data/nevada/nevada4.jpg" alt="nevada4.jpg" width="300" height="250"><img src="Project_02/data/nevada/nevada5.jpg" alt="nevada5.jpg" width="250" height="250">
 
 Output image: <br>
 <img src="Project_02/data/nevada/panorama.jpg" alt="nevada_panoroma.jpg">

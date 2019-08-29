@@ -6,7 +6,7 @@
 <img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
 
 ### [Edge Detection](Project_01/Edge_Detection) :
-
+---
 **Problem:** 
 Detect edges of a grayscale image.
 
@@ -43,6 +43,38 @@ Edge detection using `Sobel` filter:
 
 ---
 
+**Problem:** 
+`Character Detection`: Find a specific character in a given image using template matching algorithms.
+
+**Approach:**
+- The project applies **Template matching algorithm** to detect a specific character (ex. a/b/c) in a given image
+- Implements `NCC (Normalized Cross Correlation)` for matching the template with the given image
+
+**Sample input and output:** 
+
+Input image: <br>
+
+<p align="center">
+<img src="Project_01/Template_Matching/data/proj1-task2.jpg" alt="input_image.jpg">
+</p>
+
+
+**Templates:**
+<img src="Project_01/Template_Matching/data/a.jpg" alt="a.jpg">
+<img src="Project_01/Template_Matching/data/b.jpg" alt="b.jpg">
+<img src="Project_01/Template_Matching/data/c.jpg" alt="c.jpg">
+
+Output image: <br>
+
+
+
+
+
+
+
+
+
+---
 ## License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)

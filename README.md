@@ -36,7 +36,7 @@ Edge detection using `Sobel` filter:
 
 <img src="Project_01/Edge_Detection/results/sobel_edge_x.jpg" alt="sobel_x.jpg"><img src="Project_01/Edge_Detection/results/sobel_edge_y.jpg" alt="sobel_y.jpg"><img src="Project_01/Edge_Detection/results/sobel_edge_mag.jpg" alt="sobel_mag.jpg">
 
-
+[Back To The Top](#spring-2019)
 
 
 ### [Template Matching](Project_01/Template_Matching) :
@@ -73,7 +73,7 @@ Output image: <br>
 <img src="Project_01/Template_Matching/output_demo/Detected_b.jpg">
 
 
-
+[Back To The Top](#spring-2019)
 
 ### [Panorama/Image Stitching](Project_02) :
 <img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
@@ -98,6 +98,7 @@ Input image: <br>
 Output image: <br>
 <img src="Project_02/data/nevada/panorama.jpg" alt="nevada_panoroma.jpg">
 
+[Back To The Top](#spring-2019)
 
 ### [Face Detection in the Wild](Project_03) :
 <img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
@@ -107,9 +108,9 @@ Implement the `Viola-Jones` face detection algorithm which is capable of detecti
 
 **Approach:**
 - Use `FDDB` dataset to train the model with 'face images and `CBCL` dataset to train with 'non-face images'
-- Implement `integral image` calculation
+- Implements `integral image` calculation
 - `Adaboost` implementation
-- Implement `CASCADING` to reject non-face region quickly
+- Implements `CASCADING` to reject non-face region quickly
 
 [Project Report](Project_03/Report.pdf)
 

@@ -1,6 +1,7 @@
+# Spring 2019
 <p align="center">
 <img src="images/ub.png" alt="gray.jpg" width="100" height="100"> <br>
-  <b>CSE-573: Computer Vision & Image Processing </b>
+  <b> CSE-573: Computer Vision & Image Processing </b>
 </p>
 
 <img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
@@ -80,3 +81,5 @@ Output image: <br>
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
+
+[Back To The Top](#spring-2019)

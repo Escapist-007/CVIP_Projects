@@ -66,10 +66,19 @@ Input image: <br>
 <img src="Project_01/Template_Matching/data/c.jpg" alt="c.jpg">
 
 Output image: <br>
+**detecting a**
+
+<img src="Project_01/Template_Matching/output_demo/Detected_a.jpg">
+
+**detecting b**
+
+<img src="Project_01/Template_Matching/output_demo/Detected_b.jpg">
 
 
 
 
+### [Panorama/Image Stitching](Project_02) :
+---
 
 
 

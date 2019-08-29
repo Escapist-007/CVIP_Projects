@@ -115,7 +115,7 @@ Implement the `Viola-Jones` face detection algorithm which is capable of detecti
 
 **output:** <br>
 
-<img src="Project_03/sample_output/1" width="300" height="250"><img src="Project_03/sample_output/2" width="300" height="250"><img src="Project_03/sample_output/3" width="250" height="250">
+<img src="Project_03/sample_output/1.png" width="300" height="250"><img src="Project_03/sample_output/2.png" width="300" height="250"><img src="Project_03/sample_output/3.png" width="250" height="250">
 
 
 ---

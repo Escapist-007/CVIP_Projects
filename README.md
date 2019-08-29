@@ -8,7 +8,7 @@
 <img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
 
 **Problem:** 
-Detect edges of a grayscale image.
+Detect edges of a grayscale image. Do not use any `API` provided by `opencv` (cv2) and `numpy`(np) in your code (except “np.sqrt()”).
 
 **Approach:**
 - The project applies `Sobel` and `Prewitt` filters to detect edges in a given image
@@ -97,6 +97,28 @@ Input image: <br>
 
 Output image: <br>
 <img src="Project_02/data/nevada/panorama.jpg" alt="nevada_panoroma.jpg">
+
+
+### [Face Detection in the Wild](Project_03) :
+<img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
+
+**Problem:** 
+Implement the `Viola-Jones` face detection algorithm which is capable of detecting frontal faces in real time and is regarded as a milestone in the development of computer vision. Any APIs provided by OpenCV that have “cascade”, “Cascade”, “haar” or “Haar” functionality can not be used. Using any APIs that implement part of Viola-Jones algorithm directly, e.g., an API that computes integral image, will result in a deduction of 10% − 100% of the maximum possible points of this project
+
+**Approach:**
+- Use `FDDB` dataset to train the model with 'face images and `CBCL` dataset to train with 'non-face images'
+- Implement `integral image` calculation
+- `Adaboost` implementation
+- Implement `CASCADING` to reject non-face region quickly
+
+[Project Report](Project_03/Report.pdf)
+
+**output:** 
+
+Input image: <br>
+
+<img src="Project_03/sample_output/1" width="300" height="250"><img src="Project_03/sample_output/2" width="300" height="250"><img src="Project_03/sample_output/3" width="250" height="250">
+
 
 ---
 ## License

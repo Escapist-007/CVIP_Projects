@@ -1,2 +1,5 @@
-# CVIP_Projects
-The projects are part of the course CSE-573 : Computer Vision and Image Processing [Spring 2019 @ UB_SUNY]
+<p align="center">
+<img src="images/ub.png" alt="gray.jpg" width="100" height="100"> <br>
+  <b>CSE-573: Computer Vision Image Processing </b>
+</p>
+

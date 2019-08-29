@@ -73,6 +73,7 @@ def save_results(coordinates, template, template_name, rs_directory):
     results = {}
     results["coordinates"] = sorted(coordinates, key=lambda x: x[0])
     results["templat_size"] = (len(template), len(template[0]))
+    print(results)
     with open(os.path.join(rs_directory, template_name), "w") as file:
         json.dump(results, file)
 

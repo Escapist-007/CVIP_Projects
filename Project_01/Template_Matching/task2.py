@@ -45,15 +45,15 @@ import cv2
 def parse_args():
     parser = argparse.ArgumentParser(description="cse 473/573 project 1.")
     parser.add_argument(
-    "--img_path", type=str, default="./data/proj1-task2.jpg",
-    help="path to the image used for character detection (do not change this arg)")
+        "--img_path", type=str, default="./data/proj1-task2.jpg",
+        help="path to the image used for character detection (do not change this arg)")
     parser.add_argument(
-                        "--template_path", type=str, default="",
-                        choices=["./data/a.jpg", "./data/b.jpg", "./data/c.jpg"],
-                        help="path to the template image")
+        "--template_path", type=str, default="",
+        choices=["./data/a.jpg", "./data/b.jpg", "./data/c.jpg"],
+        help="path to the template image")
     parser.add_argument(
-                        "--result_saving_directory", dest="rs_directory", type=str, default="./results/",
-                        help="directory to which results are saved (do not change this arg)")
+        "--result_saving_directory", dest="rs_directory", type=str, default="",
+        help="directory to which results are saved (do not change this arg)")
     args = parser.parse_args()
     return args
 
@@ -190,7 +190,7 @@ def main():
     h = len(template)
     w = len(template[0])
     
-    # Defining threshold for 3 different character images
+    # Defining threshold for 3 different character images (depends on the templates)
     if args.template_path == './data/a.jpg':
         threshold = 0.94258827
     if args.template_path == './data/b.jpg':
@@ -202,6 +202,15 @@ def main():
 
     template_name = "{}.json".format(os.path.splitext(os.path.split(args.template_path)[1])[0])
     save_results(coordinates, template, template_name, args.rs_directory)
+    
+    # Draw rectangle around a matched region.
+    #img = cv2.imread(args.img_path,1)
+    #for pt in coordinates:
+     #   cv2.rectangle(img, pt, (pt[0]+w+w, pt[1]+h+h), (255,0,0),1)
+    
+    
+    # Show the final image with the matched area.
+    #cv2.imwrite("Detected.jpg", img)
 
 if __name__ == "__main__":
     main()

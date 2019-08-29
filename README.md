@@ -3,11 +3,12 @@
 <img src="images/ub.png" alt="gray.jpg" width="100" height="100"> <br>
   <b> CSE-573: Computer Vision & Image Processing </b>
 </p>
+---
 
-<img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
 
 ### [Edge Detection](Project_01/Edge_Detection) :
----
+<img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
+
 **Problem:** 
 Detect edges of a grayscale image.
 
@@ -41,8 +42,7 @@ Edge detection using `Sobel` filter:
 
 
 ### [Template Matching](Project_01/Template_Matching) :
-
----
+<img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
 
 **Problem:** 
 `Character Detection`: Find a specific character in a given image using template matching algorithms.
@@ -78,11 +78,27 @@ Output image: <br>
 
 
 ### [Panorama/Image Stitching](Project_02) :
----
+<img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
 
+**Problem:** 
+`Image Stitching`: Create a panoramic image from at most 3 images. Overlap of the given images will be at least 20% and not more than 50%. Any API provided by OpenCV could be used, except “`cv2.findHomography()`” and APIs that have “stitch”, “Stitch”, “match” or “Match” in their names, e.g., “cv2.BFMatcher()” and “cv2.Stitcher.create()”.
 
+**Approach:**
+- Keypoints detection and 128 bit feature vector computation using `SIFT`
+- Homography matrix generation using `SVD`
+- Implements `RANSAC` algorithm for finding the best Homography matrix
+- Stitch all images
 
+[Project Report](Project_02/Report.pdf)
 
+**Sample input and output:** 
+
+Input image: <br>
+
+<img src="Project_02/data/nevada/nevada3.jpg" alt="nevada3.jpg" width="250" height="250"><img src="Project_02/data/nevada/nevada4.jpg" alt="nevada4.jpg" width="250" height="250"><img src="Project_02/data/nevada/nevada5.jpg" alt="nevada5.jpg" width="250" height="250">
+
+Output image: <br>
+<img src="Project_02/data/nevada/panorama.jpg" alt="nevada_panoroma.jpg">
 
 ---
 ## License

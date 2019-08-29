@@ -1,5 +1,50 @@
 <p align="center">
 <img src="images/ub.png" alt="gray.jpg" width="100" height="100"> <br>
-  <b>CSE-573: Computer Vision Image Processing </b>
+  <b>CSE-573: Computer Vision & Image Processing </b>
 </p>
 
+<img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
+
+### [Edge Detection](Project_01/Edge_Detection) :
+
+**Problem:** 
+Detect edges of a grayscale image.
+
+**Approach:**
+- The project applies `Sobel` and `Prewitt` filters to detect edges in a given image
+- Implements common image processing tasks : 
+  - padding
+  - convolution
+  - correlation
+  - normalization etc.
+  
+**Sample input and output:** 
+
+Input image: <br>
+
+<p align="center">
+<img src="Project_01/Edge_Detection/data/proj1-task1.jpg" alt="input_image.jpg">
+</p>
+
+Output image: <br>
+
+Edge detection using `Prewitt` filter: 
+
+<img src="Project_01/Edge_Detection/results/prewitt_edge_x.jpg" alt="prewitt_x.jpg"><img src="Project_01/Edge_Detection/results/prewitt_edge_y.jpg" alt="prewitt_y.jpg"><img src="Project_01/Edge_Detection/results/prewitt_edge_mag.jpg" alt="prewitt_mag.jpg">
+
+Edge detection using `Sobel` filter: 
+
+<img src="Project_01/Edge_Detection/results/sobel_edge_x.jpg" alt="sobel_x.jpg"><img src="Project_01/Edge_Detection/results/sobel_edge_y.jpg" alt="sobel_y.jpg"><img src="Project_01/Edge_Detection/results/sobel_edge_mag.jpg" alt="sobel_mag.jpg">
+
+
+
+
+### [Template Matching](Project_01/Template_Matching) :
+
+---
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**

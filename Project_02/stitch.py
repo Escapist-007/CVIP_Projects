@@ -51,7 +51,7 @@ def detect_and_compute_keypoints(image):
     
     return kps, desc
 
-                                                                    ##    KEYPOINT MATCHING  ##
+                                    ##    KEYPOINT MATCHING  ##
 
 # https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.cdist.html#scipy.spatial.distance.cdist
 
@@ -167,7 +167,7 @@ def matching_keypoints_hamming(kps1, kps2, desc1, desc2):
 
 
 
-                                                                ##  Homography Matrix and RANSAC Algorithm  ##
+                                     ##  Homography Matrix and RANSAC Algorithm  ##
 
 
 def ransac_algo(matchingPoints,totalIteration):
@@ -336,7 +336,7 @@ def main():
         kps3, desc3 = sift.detectAndCompute(images[2],None)
 
 
-                                                                    ## FORWARD STITCHING
+                                          ## FORWARD STITCHING
 
         # Stitching image 1 and image 2
         H12 = ransac_algo(matching_keypoints_sqeuclidian(kps1,kps2, desc1,desc2), 1000)
@@ -370,7 +370,7 @@ def main():
         os.remove(directory + '/panorama12.jpg')
 
 
-                                                                ## BACKWARD STITCHING
+                                         ## BACKWARD STITCHING
 
         # Stitching image 3 and image 2
         H32 = ransac_algo(matching_keypoints_sqeuclidian(kps3,kps2, desc3,desc2), 1000)
@@ -403,7 +403,7 @@ def main():
         os.remove(directory + '/panorama32.jpg')
 
 
-                                            ##  DECIDE THE BEST PANORAMA BASED ON THE NUMBER OF TOTAL BLACK PIXELS
+                       ##  DECIDE THE BEST PANORAMA BASED ON THE NUMBER OF TOTAL BLACK PIXELS
 
         black = np.zeros(3)
         color123 = cv2.imread(directory + '/panorama123.jpg', 1)

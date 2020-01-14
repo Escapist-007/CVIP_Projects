@@ -1,6 +1,6 @@
 # Spring 2019
 <p align="center">
-<img src="images/ub.png" alt="gray.jpg" width="100" height="100"> <br>
+<img src="images/ub.png" alt="ub_logo.jpg" width="100" height="100"> <br>
   <b> CSE-573: Computer Vision & Image Processing </b>
 </p>
 

@@ -5,14 +5,14 @@
 </p>
 
 ### [Edge Detection](Project_01/Edge_Detection) :
-<img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
+<img src="images/bar.jpg" alt="bar.jpg" width="1100" height="3"> <br>
 
 **Problem:** 
 Detect edges of a grayscale image. Do not use any `API` provided by `opencv` (cv2) and `numpy`(np) in your code (except “np.sqrt()”).
 
 **Approach:**
 - The project applies `Sobel` and `Prewitt` filters to detect edges in a given image
-- Implements common image processing tasks : 
+- Implement common image processing tasks : 
   - padding
   - convolution
   - correlation
@@ -47,7 +47,7 @@ Edge detection using `Sobel` filter:
 
 **Approach:**
 - The project applies **Template matching algorithm** to detect a specific character (ex. a/b/c) in a given image
-- Implements `NCC (Normalized Cross Correlation)` for matching the template with the given image
+- Implement `NCC (Normalized Cross Correlation)` for matching the template with the given image
 
 **Sample input and output:** 
 
@@ -84,7 +84,7 @@ Output image: <br>
 **Approach:**
 - Keypoints detection and 128 bit feature vector computation using `SIFT`
 - Homography matrix generation using `SVD`
-- Implements `RANSAC` algorithm for finding the best Homography matrix
+- Implement `RANSAC` algorithm for finding the best Homography matrix
 - Stitch all images
 
 [Project Report](Project_02/Report.pdf)
@@ -108,9 +108,9 @@ Implement the `Viola-Jones` face detection algorithm which is capable of detecti
 
 **Approach:**
 - Use `FDDB` dataset to train the model with 'face images and `CBCL` dataset to train with 'non-face images'
-- Implements `integral image` calculation
+- Implement `integral image` calculation
 - `Adaboost` implementation
-- Implements `CASCADING` to reject non-face region quickly
+- Implement `CASCADING` to reject non-face region quickly
 
 [Project Report](Project_03/Report.pdf)
 

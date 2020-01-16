@@ -11,8 +11,8 @@
 Detect edges of a grayscale image. Do not use any `API` provided by `opencv` (cv2) and `numpy`(np) in your code (except “np.sqrt()”).
 
 **Approach:**
-- The project applies `Sobel` and `Prewitt` filters to detect edges in a given image
-- Implement common image processing tasks : 
+- The project applied `Sobel` and `Prewitt` filters to detect edges in a given image
+- Implemented common image processing tasks : 
   - padding
   - convolution
   - correlation
@@ -36,7 +36,8 @@ Edge detection using `Sobel` filter:
 
 <img src="Project_01/Edge_Detection/results/sobel_edge_x.jpg" alt="sobel_x.jpg"><img src="Project_01/Edge_Detection/results/sobel_edge_y.jpg" alt="sobel_y.jpg"><img src="Project_01/Edge_Detection/results/sobel_edge_mag.jpg" alt="sobel_mag.jpg">
 
-[Back To The Top](#spring-2019)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Back To The Top](#spring-2019)
 
 
 ### [Template Matching](Project_01/Template_Matching) :
@@ -46,8 +47,8 @@ Edge detection using `Sobel` filter:
 `Character Detection`: Find a specific character in a given image using template matching algorithms.
 
 **Approach:**
-- The project applies **Template matching algorithm** to detect a specific character (ex. a/b/c) in a given image
-- Implement `NCC (Normalized Cross Correlation)` for matching the template with the given image
+- The project applied **Template matching algorithm** to detect a specific character (ex. a/b/c) in a given image
+- Implemented `NCC (Normalized Cross Correlation)` for matching the template with the given image
 
 **Sample input and output:** 
 
@@ -73,7 +74,9 @@ Output image: <br>
 <img src="Project_01/Template_Matching/output_demo/Detected_b.jpg">
 
 
-[Back To The Top](#spring-2019)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Back To The Top](#spring-2019)
+
 
 ### [Panorama/Image Stitching](Project_02) :
 <img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
@@ -84,10 +87,12 @@ Output image: <br>
 **Approach:**
 - Keypoints detection and 128 bit feature vector computation using `SIFT`
 - Homography matrix generation using `SVD`
-- Implement `RANSAC` algorithm for finding the best Homography matrix
-- Stitch all images
+- Implemented `RANSAC` algorithm for finding the best Homography matrix
+- Stitched all images
 
-[Project Report](Project_02/Report.pdf)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Project Report](Project_02/Report.pdf)
+
 
 **Sample input and output:** 
 
@@ -98,7 +103,9 @@ Input image: <br>
 Output image: <br>
 <img src="Project_02/data/nevada/panorama.jpg" alt="nevada_panoroma.jpg">
 
-[Back To The Top](#spring-2019)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Back To The Top](#spring-2019)
+
 
 ### [Face Detection in the Wild](Project_03) :
 <img src="images/bar.jpg" alt="gray.jpg" width="1100" height="3"> <br>
@@ -107,12 +114,14 @@ Output image: <br>
 Implement the `Viola-Jones` face detection algorithm which is capable of detecting frontal faces in real time and is regarded as a milestone in the development of computer vision. Any APIs provided by OpenCV that have “cascade”, “Cascade”, “haar” or “Haar” functionality can not be used. Using any APIs that implement part of Viola-Jones algorithm directly, e.g., an API that computes integral image, will result in a deduction of 10% − 100% of the maximum possible points of this project
 
 **Approach:**
-- Use `FDDB` dataset to train the model with 'face images and `CBCL` dataset to train with 'non-face images'
-- Implement `integral image` calculation
+- Used `FDDB` dataset to train the model with 'face images and `CBCL` dataset to train with 'non-face images'
+- Implemented `integral image` calculation
 - `Adaboost` implementation
-- Implement `CASCADING` to reject non-face region quickly
+- Developed `CASCADING` to reject non-face region quickly
 
-[Project Report](Project_03/Report.pdf)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Project Report](Project_03/Report.pdf)
+
 
 **output:** <br>
 
@@ -126,4 +135,5 @@ Implement the `Viola-Jones` face detection algorithm which is capable of detecti
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 
-[Back To The Top](#spring-2019)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Back To The Top](#spring-2019)
